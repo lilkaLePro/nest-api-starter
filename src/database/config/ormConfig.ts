@@ -1,3 +1,5 @@
+import {getMetadataArgsStorage} from 'typeorm'
+
 export function ormConfig(): any {
     return {
         url: "mongodb+srv://kaly100diallo:qbvU9e2m6bOunXif@cluster0.rlhxa.mongodb.net/enens?retryWrites=true&w=majority&appName=Cluster0",
@@ -5,11 +7,8 @@ export function ormConfig(): any {
         synchronize: true,
         logging: false,
         autoLoadEntities: true,
-        useUnifiedTopology: true,
         useNewUrlParser: true,
-        keepConnectionAlive: true,
-        connectTimeout: null,
-        acquireTimeout: null,
+        useUnifiedTopology: true,
         extra: {
         connectionLimit: null,
         },

@@ -84,3 +84,9 @@ Nest is an MIT-licensed open source project. It can grow thanks to the sponsors 
 ## License
 
 Nest is [MIT licensed](https://github.com/nestjs/nest/blob/master/LICENSE).
+
+<!-- Setup nest starter with appolo -->
+<!-- https://github.com/4ctarus/integration-nestjs/blob/main/package.json -->
+
+<!-- setUp nest without -->
+<!-- https://github.com/HeyiMaster/nest-starter/blob/master/src/modules/users/users.controller.ts -->
